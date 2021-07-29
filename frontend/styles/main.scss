@@ -344,12 +344,36 @@ header{
 
 }
 
+.section-about-header{
+    min-height: 500px;
+    background-color: #111111;
+    margin-top: -70px;
+}
+
+.section-about-content{
+    margin-top: -325px;
+    .breadcrumb{
+        background-color: transparent;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .breadcrumb-item{
+        font-weight: bold;
+        color: #fff;
+        font-size: 42px;
+        margin: auto;
+        text-underline-position: under;
+        text-decoration: underline;
+    }
+}
+
 .section-about{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
     color: white;
+    background-color: #111111;
 
     .container{
         min-height: 100vh;
@@ -358,7 +382,7 @@ header{
         align-items: center;
         justify-content: center;
         padding: 100px 0;
-        background-color: #101010;
+        background-color: #111111;
     }
 
     .timeline{
@@ -390,6 +414,8 @@ header{
         font-weight: 500;
         line-height: 30px;
         margin-bottom: 10px;
+        text-underline-position: under;
+        text-decoration: underline;
     }
 
     .timeline-content p{

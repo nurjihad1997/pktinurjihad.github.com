@@ -324,6 +324,31 @@ header .btn-get-started:hover {
   color: #fff;
 }
 
+.section-about-header {
+  min-height: 500px;
+  background-color: #111111;
+  margin-top: -70px;
+}
+
+.section-about-content {
+  margin-top: -325px;
+}
+
+.section-about-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.section-about-content .breadcrumb-item {
+  font-weight: bold;
+  color: #fff;
+  font-size: 42px;
+  margin: auto;
+  text-underline-position: under;
+  text-decoration: underline;
+}
+
 .section-about {
   margin: 0;
   padding: 0;
@@ -331,6 +356,7 @@ header .btn-get-started:hover {
           box-sizing: border-box;
   font-family: sans-serif;
   color: white;
+  background-color: #111111;
 }
 
 .section-about .container {
@@ -346,7 +372,7 @@ header .btn-get-started:hover {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 100px 0;
-  background-color: #101010;
+  background-color: #111111;
 }
 
 .section-about .timeline {
@@ -380,6 +406,8 @@ header .btn-get-started:hover {
   font-weight: 500;
   line-height: 30px;
   margin-bottom: 10px;
+  text-underline-position: under;
+  text-decoration: underline;
 }
 
 .section-about .timeline-content p {
