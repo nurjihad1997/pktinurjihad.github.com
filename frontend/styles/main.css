@@ -94,11 +94,40 @@ header .btn-get-started:hover {
   padding: 30px;
   background-size: cover;
   border: 7px solid #6e6262;
+  margin-bottom: 70px;
 }
 
 .section-popular-content .section-popular-print .info-print {
   font-size: 21px;
   color: black;
+  font-weight: bold;
+}
+
+.section-portofolio .section-portofolio-perusahaan {
+  margin-top: 30px;
+}
+
+.section-portofolio .section-portofolio-perusahaan h2 {
+  color: #111111;
+  font-family: 'PlayFair Display', serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.section-portofolio-gambar .section-portofolio-content .portofolio-content {
+  margin-top: 60px;
+  min-height: 250px;
+  background-color: #fff;
+  color: #111111;
+  padding: 30px;
+  background-size: cover;
+  border: 6px solid #1c00bd;
+  margin-bottom: 70px;
+}
+
+.section-portofolio-gambar .section-portofolio-content .nama-portofolio {
+  font-size: 20px;
+  color: #111111;
   font-weight: bold;
 }
 
