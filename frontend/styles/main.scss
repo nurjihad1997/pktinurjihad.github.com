@@ -140,14 +140,19 @@ header{
             color: #111111;
             padding: 30px;
             background-size: cover;
-            border: 6px solid #1c00bd;
+            border: 5px solid #B1B1B1;
+            border-radius: 4px 4px 4px 4px;
             margin-bottom: 70px;
+
+            
         }
         .nama-portofolio{
             font-size: 20px;
+            margin-bottom: -25px;
             color: #111111;
             font-weight: bold;
         }
+        
     }
 }
 
@@ -379,7 +384,7 @@ header{
 
 .section-about-header{
     min-height: 500px;
-    background-color: #111111;
+    background-image: url('../images/Rectangle\ 8.png');
     margin-top: -70px;
 }
 
@@ -392,7 +397,7 @@ header{
     }
     .breadcrumb-item{
         font-weight: bold;
-        color: #fff;
+        color: rgb(3, 3, 3);
         font-size: 42px;
         margin: auto;
         text-underline-position: under;
@@ -405,8 +410,8 @@ header{
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    color: white;
-    background-color: #111111;
+    color: black;
+    //background-color: #ffffff;
 
     .container{
         min-height: 100vh;
@@ -415,7 +420,7 @@ header{
         align-items: center;
         justify-content: center;
         padding: 100px 0;
-        background-color: #111111;
+        //background-color: #ffffff;
     }
 
     .timeline{
@@ -433,8 +438,8 @@ header{
     }
     .timeline ul li{
         padding: 20px;
-        background-color: #1e1f22;
-        color: white;
+        background-color: #acaeb3;
+        color: black;
         border-radius: 10px;
         margin-bottom: 20px;
     }
@@ -458,7 +463,7 @@ header{
     }
     .timeline-content .date{
         font-size: 13px;
-        font-weight: 300;
+        font-weight: bold;
         margin-bottom: 10px;
         letter-spacing: 2px;
     }
@@ -471,7 +476,7 @@ header{
             width: 2px;
             left: 52%;
             transform: translateX(-52%);
-            background-color: gray;
+            background-color: black;
         }
         .timeline ul li{
             width: 50%;
@@ -496,7 +501,7 @@ header{
             position: absolute;
             height: 20px;
             width: 20px;
-            background-color: gray;
+            background-color: black;
             border-radius: 50%;
             top: 0;
         }
