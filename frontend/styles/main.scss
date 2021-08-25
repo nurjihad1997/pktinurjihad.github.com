@@ -133,26 +133,21 @@ header{
 }
 .section-portofolio-gambar{
     .section-portofolio-content{
-        .portofolio-content{
-            margin-top: 60px;
-            min-height: 250px;
-            background-color: #fff;
-            color: #111111;
-            padding: 30px;
-            background-size: cover;
-            border: 5px solid #B1B1B1;
-            border-radius: 4px 4px 4px 4px;
-            margin-bottom: 70px;
-
-            
+        .content{
+            padding: 10px;
         }
-        .nama-portofolio{
-            font-size: 20px;
-            margin-bottom: -25px;
-            color: #111111;
-            font-weight: bold;
+        .wrapper{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap: 5px;
         }
-        
+        img {
+            width: 100%;
+            border-radius: 20px;
+        }
+        .box{
+            padding: 10px;
+        }
     }
 }
 

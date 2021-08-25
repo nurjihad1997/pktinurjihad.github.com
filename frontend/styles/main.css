@@ -114,23 +114,25 @@ header .btn-get-started:hover {
   font-size: 35px;
 }
 
-.section-portofolio-gambar .section-portofolio-content .portofolio-content {
-  margin-top: 60px;
-  min-height: 250px;
-  background-color: #fff;
-  color: #111111;
-  padding: 30px;
-  background-size: cover;
-  border: 5px solid #B1B1B1;
-  border-radius: 4px 4px 4px 4px;
-  margin-bottom: 70px;
+.section-portofolio-gambar .section-portofolio-content .content {
+  padding: 10px;
 }
 
-.section-portofolio-gambar .section-portofolio-content .nama-portofolio {
-  font-size: 20px;
-  margin-bottom: -25px;
-  color: #111111;
-  font-weight: bold;
+.section-portofolio-gambar .section-portofolio-content .wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 5px;
+}
+
+.section-portofolio-gambar .section-portofolio-content img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.section-portofolio-gambar .section-portofolio-content .box {
+  padding: 10px;
 }
 
 .section-btn-product .section-button {
