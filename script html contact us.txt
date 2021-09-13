@@ -1,0 +1,13 @@
+
+<div class="input-contact">
+                            <form>
+                                <input type="text" placeholder="YourName" required>
+                                <input type="text" placeholder="LastName" required>
+                                <input type="email" placeholder="Email" required>
+                                <input type="text" placeholder="Subject of This Massage" required>
+                                <textarea name="massage" placeholder="massage" rows="5" required></textarea>
+                                <button class="POST">
+                                
+                                </button> 
+                            </form>
+                        </div>

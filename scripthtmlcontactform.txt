@@ -1,0 +1,14 @@
+
+
+
+halaman html pada bagian contact.html, di bagian form, pada aplikasi frontend pkti
+<div class="input-contact">
+                            <form>
+                                <input type="text" placeholder="YourName" required>
+                                <input type="text" placeholder="LastName" required>
+                                <input type="email" placeholder="Email" required>
+                                <input type="text" placeholder="Subject of This Massage" required>
+                                <textarea name="massage" placeholder="massage" rows="5" required></textarea>
+                                <button class="submit">Send Massage</button>
+                            </form>
+                        </div>
